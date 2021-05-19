@@ -1,0 +1,11 @@
+.intro {
+  height: 50vh;
+  background-image: url('../../icons/canopy2.svg');
+  background-size: 50vh;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.paraBlock {
+  width: 40%;
+}
