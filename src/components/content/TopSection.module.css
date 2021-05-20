@@ -1,7 +1,7 @@
 .topSection {
   height: 50vh;
-  background-image: url('../../icons/trunk_line_branch.svg');
-  background-size: 50vh;
+  background-image: url('../../icons/plaintrunk.svg');
+  background-size: 45vw;
   background-repeat: no-repeat;
   background-position: top right;
 }

@@ -11,6 +11,8 @@ img {
 }
 
 body {
+  min-width: 350px;
+  padding-left: 10px;
   background: #56ccf2; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2f80ed, #56ccf2); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
@@ -18,23 +20,21 @@ body {
     #2f80ed,
     #56ccf2
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  margin-left: 0.5rem;
 }
 
 h1 {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 h2 {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 2rem;
+  font-size: 1.75rem;
+  font-weight: lighter;
 }
 
 p {
   font-family: 'Oxygen', sans-serif;
   line-height: 1.5rem;
   width: 80%;
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
 }

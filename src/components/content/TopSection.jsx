@@ -4,6 +4,7 @@ function TopSection() {
   return (
     <div className={css.topSection}>
       <h2>Web Development</h2>
+      <div className={css.trunkEnd}></div>
     </div>
   );
 }

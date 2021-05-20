@@ -2,9 +2,12 @@ import css from './Nav.module.css';
 
 function Nav() {
   return (
-    <div className={css.nav}>
-      <h2>Navigation</h2>
-    </div>
+    <nav className={css.nav}>
+      <h1 className={css.title}>Thomas Allen</h1>
+      <span className={css.home}>H</span>
+      <span className={css.lang}>En / Fr</span>
+      <span className={css.burger}>///</span>
+    </nav>
   );
 }
 
