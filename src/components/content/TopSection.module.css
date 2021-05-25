@@ -1,8 +1,7 @@
 .topSection {
-  height: 50vh;
   background-image: url('../../icons/plaintrunk.svg');
   background-size: 45vw;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-position: top right;
 }
 

@@ -3,6 +3,7 @@ import Nav from './components/layout/Nav';
 import Intro from './components/content/Intro';
 import TopSection from './components/content/TopSection';
 import RootSection from './components/content/RootSection';
+import Timeline from './components/content/TimeLine';
 
 function App() {
   return (
@@ -10,9 +11,7 @@ function App() {
       <Nav />
       <Intro />
       <TopSection />
-      <TopSection />
-      <TopSection />
-      <TopSection />
+      <Timeline />
       <RootSection />
     </SiteWrapper>
   );
