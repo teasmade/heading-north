@@ -8,19 +8,24 @@ function FadeWrapper(props) {
 
   useScrollPosition(
     ({ prevPos, currPos }) => {
-      const isVisible = currPos.y > prevPos.y;
+      const isVisible = currPos.y > 100;
+      console.log(currPos.y);
+      console.log(prevPos.y);
+      console.log(window.innerHeight);
 
       const shouldBeStyle = {
         // visibility: isVisible ? 'visible' : 'hidden',
         transition: `all 600ms ${isVisible ? 'ease-in' : 'ease-out'}`,
-        transform: isVisible ? 'none' : 'translate(0, -100%)',
+        opacity: isVisible ? 0 : 1,
       };
 
       if (JSON.stringify(shouldBeStyle) === JSON.stringify(fadeStyle)) return;
 
       setFadeStyle(shouldBeStyle);
     },
-    [fadeStyle]
+    [fadeStyle],
+    null,
+    true
   );
   return <div style={{ ...fadeStyle }}>{props.children}</div>;
 }

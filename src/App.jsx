@@ -10,9 +10,7 @@ function App() {
   return (
     <SiteWrapper>
       <Nav />
-      <FadeWrapper>
-        <Intro />
-      </FadeWrapper>
+      <Intro />
       <TopSection />
       <Timeline />
       <RootSection />
