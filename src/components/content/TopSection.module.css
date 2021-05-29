@@ -1,6 +1,6 @@
 .topSection {
   background-image: url('../../icons/plaintrunk.svg');
-  background-size: 45vw;
+  background-size: min(45vw, 200px);
   background-repeat: repeat-y;
   background-position: top right;
 }
