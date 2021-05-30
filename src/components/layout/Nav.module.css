@@ -7,12 +7,9 @@
   position: fixed;
   top: 0;
   color: #ddffff;
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
   display: grid;
   grid-template-areas: 'left right';
-  grid-template-columns: 60fr 40fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   align-items: center;
   background: #56ccf2; /* fallback for old browsers */
@@ -27,7 +24,7 @@
 }
 
 .initialControls {
-  width: 40vw;
+  width: 50vw;
   /* margin-left: auto; */
   grid-area: right;
   display: flex;
@@ -54,7 +51,8 @@
   }
   100% {
     opacity: 1;
-    padding-left: 10px;
+    transform: translateX(10px);
+    transform: scale(0.95);
   }
 }
 
@@ -82,32 +80,28 @@
   100% {
     opacity: 1;
     grid-area: right;
-    width: 55vw;
+    width: 50vw;
     font-size: 1.6rem;
-    padding-left: 10px;
+    transform: translateX(10px);
   }
 }
 
 .nav span {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 2rem;
+  font-size: 1.75rem;
+  color: #ddffff;
 }
 
 .title {
-  /* HIDE ON SCROLL */
-  color: white;
+  color: #ddffff;
   font-size: 2rem;
   margin-bottom: 2vh;
 }
 
-.home {
-  /* HIDE BEFORE SCROLL */
-}
-
 .lang {
-  /* MOVE LEFT ON SCROLL */
+  margin-right: 2vw;
 }
 
-.burger {
-  /* MOVED LEFT ON SCROLL */
+.toggle {
+  margin-bottom: -7px;
 }
