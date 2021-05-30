@@ -14,6 +14,7 @@ function Nav() {
     [changeOnScroll]
   );
 
+  // TODO: Change naming to reflect language change
   const [checked, setChecked] = useState(false);
   const handleChange = (nextChecked) => {
     setChecked(nextChecked);
@@ -78,8 +79,8 @@ function Nav() {
           />{' '}
           Fr
         </span>
-        <span className={css.burger}>:</span>
       </nav>
+      <span className={css.burger}>:</span>
     </div>
   );
 }
