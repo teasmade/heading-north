@@ -1,13 +1,19 @@
 .nav {
   height: 8vh;
+  min-height: 75px;
   width: 100%;
   padding-right: 10px;
   margin-left: -10px;
   position: fixed;
   top: 0;
   color: #ddffff;
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
+  align-items: center; */
+  display: grid;
+  grid-template-areas: 'left right';
+  grid-template-columns: 60fr 40fr;
+  grid-template-rows: 1fr;
   align-items: center;
   background: #56ccf2; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #2f80ed, #56ccf2); /* Chrome 10-25, Safari 5.1-6 */
@@ -20,26 +26,66 @@
   border-bottom: 3px solid black;
 }
 
-.navBg {
-  background: #56ccf2; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #2f80ed, #56ccf2); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2f80ed,
-    #56ccf2
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.initialControls {
+  width: 40vw;
+  /* margin-left: auto; */
+  grid-area: right;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.hidden {
+.scrolledControls {
+  animation: moveControls 1s forwards;
+}
+
+@keyframes moveControls {
+  0% {
+    opacity: 1;
+    grid-area: right;
+    justify-self: end;
+  }
+  20% {
+    opacity: 0;
+    grid-area: right;
+  }
+  50% {
+    grid-area: left;
+  }
+  100% {
+    opacity: 1;
+    padding-left: 10px;
+  }
+}
+
+.hiddenTitle {
+  display: none;
   opacity: 0;
+  grid-area: left;
 }
 
-.notHidden {
-  transition: all 1500ms ease-in-out;
-  opacity: 1;
-  order: 2;
+.notHiddenTitle {
+  animation: revealTitle 1.25s forwards;
+}
+
+@keyframes revealTitle {
+  0% {
+    display: default;
+    opacity: 0;
+    grid-area: right;
+    width: 50vw;
+    font-size: 1.7rem;
+  }
+  10% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    grid-area: right;
+    width: 55vw;
+    font-size: 1.6rem;
+    padding-left: 10px;
+  }
 }
 
 .nav span {
@@ -50,7 +96,7 @@
 .title {
   /* HIDE ON SCROLL */
   color: white;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 2vh;
 }
 

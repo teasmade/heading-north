@@ -3,21 +3,20 @@ import React, { useState } from 'react';
 import { useScrollPosition } from '@n8tb1t/use-scroll-position';
 
 function Nav() {
-  const [hideOnScroll, setHideOnScroll] = useState(true);
+  const [changeOnScroll, setChangeOnScroll] = useState(true);
 
   useScrollPosition(
     ({ prevPos, currPos }) => {
-      const isShow = currPos.y > prevPos.y;
-      if (isShow !== hideOnScroll) setHideOnScroll(isShow);
+      const isChange = currPos.y > prevPos.y;
+      if (isChange !== changeOnScroll) setChangeOnScroll(isChange);
     },
-    [hideOnScroll]
+    [changeOnScroll]
   );
 
   return (
     <div className={css.nav}>
-      <h1 className={hideOnScroll ? css.hidden : css.notHidden}>Thomas Allen</h1>
-      <nav>
-        <span className={css.home}>H</span>
+      <h1 className={changeOnScroll ? css.hiddenTitle : css.notHiddenTitle}>Thomas Allen</h1>
+      <nav className={changeOnScroll ? css.initialControls : css.scrolledControls}>
         <span className={css.lang}>En / Fr</span>
         <span className={css.burger}>///</span>
       </nav>
