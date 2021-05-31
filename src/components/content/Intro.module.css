@@ -1,6 +1,6 @@
 .intro {
   margin-top: 15vh;
-  background-image: url('../../icons/canopy3.svg');
+  background-image: url('../../icons/canopy2.svg');
   background-size: min(45vw, 200px);
   background-repeat: no-repeat;
   background-position: top right;
@@ -9,7 +9,11 @@
 .intro h1 {
   color: #ddffff;
   font-size: 2.4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.intro h2 {
+  margin-bottom: 2rem;
 }
 
 .essentials {
@@ -22,7 +26,7 @@
   display: flex;
   align-items: center;
   color: #ddffff;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 5px 10px;
   background: #7cccf544;
   margin-bottom: 1.5rem;

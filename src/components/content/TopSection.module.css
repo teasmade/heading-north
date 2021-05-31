@@ -6,9 +6,13 @@
 }
 
 .topSection h2 {
-  padding-top: 1.5rem;
+  padding-top: 2.5rem;
 }
 
 .topSection p {
   text-align: justify;
+}
+
+.highlight {
+  color: #ddffff;
 }

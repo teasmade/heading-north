@@ -85,7 +85,7 @@ function TimeLine() {
           <h3 className='vertical-timeline-element-title'>React + API Development</h3>
           <h4 className='vertical-timeline-element-subtitle'>BiclooApp</h4>
           <p>
-            2nd project during training at the Wild Code School; brief was to create a site with
+            2nd project during training at the Wild Code School; our brief was to create a site with
             React using geodata from Nantes Metropôle's public API in an interesting way.
           </p>
           <p>

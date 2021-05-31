@@ -5,17 +5,23 @@ function TopSection() {
     <div className={css.topSection}>
       <h2>Right Here, Right Now</h2>
       <p>
-        I'm a junior developer currently learning the trade with React, Node and MySQL. My pre-dev
-        background is in sales and language teaching.{' '}
+        I'm a <span className={css.highlight}>junior developer</span> currently learning the trade
+        with <span className={css.highlight}>React, Node and MySQL.</span> My pre-dev background is
+        in sales and language teaching.{' '}
       </p>
       <p>
-        Fluent, targeted communication, efficient organisation and adaptation to new learning
-        contexts are some of my prior strengths; I've found they retain their value as this journey
-        continues...
+        <span className={css.highlight}>Fluent,</span> targeted{' '}
+        <span className={css.highlight}>communication,</span> efficient{' '}
+        <span className={css.highlight}>organisation</span> and adaptation to new{' '}
+        <span className={css.highlight}>learning </span>
+        contexts are some of my prior <span className={css.highlight}>strengths.</span> I've found
+        they retain their value as this journey continues...
       </p>
       <p>
-        I'm based in Nantes, France, and am currently looking for interesting opportunities in the
-        region, or remote CET, for junior-level roles or internships starting from August 2021.
+        I'm based in <span className={css.highlight}>Nantes,</span> France, and am currently looking
+        for <span className={css.highlight}>interesting opportunities</span> in the region, or
+        remote CET, for <span className={css.highlight}>junior-level</span> roles or internships
+        starting from <span className={css.highlight}>August 2021.</span>
       </p>
       <div className={css.trunkEnd}></div>
     </div>
