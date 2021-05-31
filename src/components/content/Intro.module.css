@@ -49,6 +49,7 @@ a:hover {
 
 @media (min-width: 740px) {
   .intro {
+    margin-top: 10vh;
     background-image: url('../../icons/canopy4.svg');
     background-size: min(33vw, 500px);
     /* background-position: center top; */
