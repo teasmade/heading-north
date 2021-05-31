@@ -4,7 +4,6 @@ import Intro from './components/content/Intro';
 import TopSection from './components/content/TopSection';
 import RootSection from './components/content/RootSection';
 import Timeline from './components/content/TimeLine';
-import FadeWrapper from './components/ui/FadeWrapper';
 
 function App() {
   return (

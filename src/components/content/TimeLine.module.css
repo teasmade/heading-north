@@ -1,0 +1,41 @@
+.timeline {
+  background-image: url('../../icons/plaintrunk.svg');
+  background-size: min(45vw, 200px);
+  background-repeat: repeat-y;
+  background-position: top right;
+}
+
+.timeLineTrunk {
+  padding: 2em 0 0 0;
+}
+
+.timeLineTrunk::before {
+  background: none;
+}
+
+.timeline h2 {
+  padding-top: 2rem;
+  margin-bottom: -1rem;
+}
+
+.timeLineNode {
+  border: 7px solid black;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.timeLineBox {
+  color: #ddffff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.timeLineBox p {
+  color: black;
+  text-align: justify;
+  width: 100%;
+}
+
+.timeLineDate {
+  opacity: 1;
+}

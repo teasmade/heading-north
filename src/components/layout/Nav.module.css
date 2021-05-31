@@ -20,6 +20,9 @@
     #56ccf2
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   z-index: 1000;
+}
+
+.scrollNav {
   border-bottom: 3px solid black;
 }
 

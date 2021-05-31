@@ -8,10 +8,13 @@ function Nav() {
 
   useScrollPosition(
     ({ prevPos, currPos }) => {
-      const isChange = currPos.y > prevPos.y;
+      const isChange = currPos.y < 30;
       if (isChange !== changeOnScroll) setChangeOnScroll(isChange);
+      console.log(currPos.y);
     },
-    [changeOnScroll]
+    [changeOnScroll],
+    null,
+    true
   );
 
   // TODO: Change naming to reflect language change
@@ -22,7 +25,7 @@ function Nav() {
   };
 
   return (
-    <div className={css.nav}>
+    <div className={changeOnScroll ? css.nav : `${css.nav} ${css.scrollNav}`}>
       <h1 className={changeOnScroll ? css.hiddenTitle : css.notHiddenTitle}>Thomas Allen</h1>
       <nav className={changeOnScroll ? css.initialControls : css.scrolledControls}>
         <span className={css.lang}>

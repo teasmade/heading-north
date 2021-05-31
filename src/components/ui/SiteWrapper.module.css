@@ -31,10 +31,29 @@ h2 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.75rem;
   font-weight: lighter;
+  margin-bottom: 0.5rem;
 }
 
-p {
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+}
+
+p,
+li,
+span {
   font-family: 'Oxygen', sans-serif;
   line-height: 1.5rem;
   width: 80%;
+}
+
+p {
+  margin-top: 0.5rem;
 }
