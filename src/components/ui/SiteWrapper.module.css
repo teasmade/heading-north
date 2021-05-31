@@ -12,6 +12,7 @@ img {
 
 body {
   min-width: 350px;
+  max-width: 1920px;
   padding-left: 10px;
   background: #56ccf2; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2f80ed, #56ccf2); /* Chrome 10-25, Safari 5.1-6 */
@@ -58,6 +59,5 @@ p {
   margin-top: 1rem;
 }
 
-.highlight {
-  color: ddffff;
+@media (min-width: 740px) {
 }

@@ -7,6 +7,7 @@ function Intro() {
         <h1>Thomas Allen</h1>
         <h2>Web Developer</h2>
         <h3>The essentials...</h3>
+        <div></div>
         <div className={css.essentials}>
           <a href='http://to.do.com'>
             <svg

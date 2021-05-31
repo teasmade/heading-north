@@ -12,13 +12,9 @@
   grid-template-columns: 5fr 3fr 1fr;
   grid-template-rows: 1fr;
   align-items: center;
-  background: #56ccf2; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #2f80ed, #56ccf2); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2f80ed,
-    #56ccf2
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #56ccf2;
+  background: -webkit-linear-gradient(to left, #2f80ed, #56ccf2);
+  background: linear-gradient(to right, #2f80ed, #56ccf2);
   z-index: 1000;
 }
 
