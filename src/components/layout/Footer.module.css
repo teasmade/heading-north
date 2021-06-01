@@ -6,7 +6,8 @@
   padding-bottom: 1rem;
   color: #ddffff;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footerItem {
@@ -15,16 +16,22 @@
   max-width: 800px;
 }
 
+.firstI {
+  align-self: flex-start;
+}
+
 .secondI {
-  padding-left: 25%;
+  align-self: center;
 }
 
 .thirdI {
-  padding-left: 50%;
+  align-self: flex-end;
+  padding-right: 10px;
 }
 
 .fourthI {
-  padding-left: 70%;
+  padding-top: 10px;
+  align-self: center;
 }
 
 .email a {
@@ -49,27 +56,23 @@ a:hover {
   background-color: #7cccf566;
 }
 
-@media (max-width: 740px) {
-  .footerItem {
-    width: 100%;
-    margin-left: 0;
-  }
-
+@media (min-width: 740px) {
   .firstI {
-    padding-bottom: 5px;
+    align-self: center;
+    padding-right: 11%;
   }
 
   .secondI {
-    padding-left: 9%;
-    padding-bottom: 5px;
+    align-self: center;
   }
 
   .thirdI {
-    padding-left: 23%;
-    padding-bottom: 5px;
+    align-self: center;
+    padding-left: 13%;
   }
 
   .fourthI {
-    padding-left: 30%;
+    padding-top: 10px;
+    align-self: center;
   }
 }
