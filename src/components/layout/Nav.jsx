@@ -10,7 +10,6 @@ function Nav() {
     ({ prevPos, currPos }) => {
       const isChange = currPos.y < 30;
       if (isChange !== changeOnScroll) setChangeOnScroll(isChange);
-      console.log(currPos.y);
     },
     [changeOnScroll],
     null,

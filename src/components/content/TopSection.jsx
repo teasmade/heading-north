@@ -23,7 +23,11 @@ function TopSection() {
         remote CET, for <span className={css.highlight}>junior-level</span> roles or internships
         starting from <span className={css.highlight}>August 2021.</span>
       </p>
-      <div className={css.trunkEnd}></div>
+      <p>
+        <span className={css.highlight}>// TODO:</span> my current learning goals are{' '}
+        <span className={css.highlight}>Typescript, GraphQL and Tailwind,</span> with side interests
+        in creative coding with <span className={css.highlight}>p5.js and D3.js.</span>
+      </p>
     </div>
   );
 }

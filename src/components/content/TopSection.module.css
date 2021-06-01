@@ -16,3 +16,10 @@
 .highlight {
   color: #ddffff;
 }
+
+@media (min-width: 740px) {
+  .topSection {
+    background-image: url('../../icons/plaintrunk2.svg');
+    background-size: min(33vw, 500px);
+  }
+}
