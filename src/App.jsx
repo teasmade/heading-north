@@ -4,6 +4,7 @@ import Intro from './components/content/Intro';
 import TopSection from './components/content/TopSection';
 import RootSection from './components/content/RootSection';
 import Timeline from './components/content/TimeLine';
+import Footer from './components/layout/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <TopSection />
       <Timeline />
       <RootSection />
+      <Footer />
     </SiteWrapper>
   );
 }

@@ -57,6 +57,10 @@
     max-width: 800px;
     font-size: 1.15rem;
   }
+
+  .timeLineBox {
+    padding-right: 14%;
+  }
 }
 
 /* SVG TREE SCALING FOR LARGER VIEWS */

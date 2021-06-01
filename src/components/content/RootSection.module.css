@@ -1,7 +1,70 @@
 .rootSection {
-  height: 50vh;
-  background-image: url('../../icons/root_section_2.svg');
-  background-size: 45vw;
+  background-image: url('../../icons/roots.svg');
+  background-size: min(45vw, 200px);
   background-repeat: no-repeat;
   background-position: top right;
+  padding-bottom: 30px;
+}
+
+.rootSection h2 {
+  padding-top: 2.5rem;
+}
+
+.rootSection p {
+  text-align: justify;
+}
+
+.highlight {
+  color: #ddffff;
+}
+
+.aside {
+  font-size: 1rem;
+  padding-left: 15%;
+}
+
+@media (min-width: 740px) {
+  .rootSection {
+    background-image: url('../../icons/roots2.svg');
+    background-size: min(33vw, 500px);
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
+  .desktopFlexWrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .desktopFlexItem {
+    width: 60%;
+    margin-left: 10%;
+    max-width: 800px;
+    font-size: 1.15rem;
+  }
+}
+
+/* SVG TREE SCALING FOR LARGER VIEWS */
+@media (min-width: 1400px) {
+  .rootSection {
+    background-position: 64vw top;
+  }
+}
+
+@media (min-width: 1500px) {
+  .rootSection {
+    background-position: 63vw top;
+  }
+}
+
+@media (min-width: 1600px) {
+  .rootSection {
+    background-position: 61vw top;
+  }
+}
+
+@media (min-width: 2000px) {
+  .rootSection {
+    background-position: 60vw top;
+  }
 }
