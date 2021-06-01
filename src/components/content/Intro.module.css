@@ -77,3 +77,28 @@ a:hover {
     font-size: 1.4rem;
   }
 }
+
+/* SVG TREE SCALING FOR LARGER VIEWS */
+@media (min-width: 1400px) {
+  .intro {
+    background-position: 64vw top;
+  }
+}
+
+@media (min-width: 1500px) {
+  .intro {
+    background-position: 63vw top;
+  }
+}
+
+@media (min-width: 1600px) {
+  .intro {
+    background-position: 61vw top;
+  }
+}
+
+@media (min-width: 2000px) {
+  .intro {
+    background-position: 60vw top;
+  }
+}

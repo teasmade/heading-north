@@ -39,3 +39,47 @@
 .timeLineDate {
   opacity: 1;
 }
+
+@media (min-width: 740px) {
+  .timeline {
+    background-image: url('../../icons/plaintrunk2.svg');
+    background-size: min(33vw, 500px);
+  }
+
+  .desktopFlexWrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .desktopFlexItem {
+    width: 60%;
+    margin-left: 10%;
+    max-width: 800px;
+    font-size: 1.15rem;
+  }
+}
+
+/* SVG TREE SCALING FOR LARGER VIEWS */
+@media (min-width: 1400px) {
+  .timeline {
+    background-position: 64vw;
+  }
+}
+
+@media (min-width: 1500px) {
+  .timeline {
+    background-position: 63vw;
+  }
+}
+
+@media (min-width: 1600px) {
+  .timeline {
+    background-position: 61vw;
+  }
+}
+
+@media (min-width: 2000px) {
+  .timeline {
+    background-position: 60vw;
+  }
+}
