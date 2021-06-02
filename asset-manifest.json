@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/teasmade/heading-north/static/css/main.df21f352.chunk.css",
+    "main.js": "/teasmade/heading-north/static/js/main.2f0fecd1.chunk.js",
+    "main.js.map": "/teasmade/heading-north/static/js/main.2f0fecd1.chunk.js.map",
+    "runtime-main.js": "/teasmade/heading-north/static/js/runtime-main.aac324a0.js",
+    "runtime-main.js.map": "/teasmade/heading-north/static/js/runtime-main.aac324a0.js.map",
+    "static/css/2.2aa38b9c.chunk.css": "/teasmade/heading-north/static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.29c171e8.chunk.js": "/teasmade/heading-north/static/js/2.29c171e8.chunk.js",
+    "static/js/2.29c171e8.chunk.js.map": "/teasmade/heading-north/static/js/2.29c171e8.chunk.js.map",
+    "static/js/3.6aedc40a.chunk.js": "/teasmade/heading-north/static/js/3.6aedc40a.chunk.js",
+    "static/js/3.6aedc40a.chunk.js.map": "/teasmade/heading-north/static/js/3.6aedc40a.chunk.js.map",
+    "index.html": "/teasmade/heading-north/index.html",
+    "static/css/2.2aa38b9c.chunk.css.map": "/teasmade/heading-north/static/css/2.2aa38b9c.chunk.css.map",
+    "static/css/main.df21f352.chunk.css.map": "/teasmade/heading-north/static/css/main.df21f352.chunk.css.map",
+    "static/js/2.29c171e8.chunk.js.LICENSE.txt": "/teasmade/heading-north/static/js/2.29c171e8.chunk.js.LICENSE.txt",
+    "static/media/Intro.module.css": "/teasmade/heading-north/static/media/canopy4.98a31d35.svg",
+    "static/media/TimeLine.module.css": "/teasmade/heading-north/static/media/plaintrunk2.e36fbb59.svg",
+    "static/media/RootSection.module.css": "/teasmade/heading-north/static/media/roots2.8e0e84b8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aac324a0.js",
+    "static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.29c171e8.chunk.js",
+    "static/css/main.df21f352.chunk.css",
+    "static/js/main.2f0fecd1.chunk.js"
+  ]
+}

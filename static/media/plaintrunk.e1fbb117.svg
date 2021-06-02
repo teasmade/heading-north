@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   height="177.16522"
+   width="52.238148"
+   fill="#000000"
+   data-name="Layer 22"
+   viewBox="0 0 188.05734 637.7948"
+   x="0px"
+   y="0px"
+   version="1.1"
+   preserveAspectRatio="none"
+   id="svg32">
+  <metadata
+     id="metadata38">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>great_streets_icons_outlined</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs36" />
+  <title
+     id="title2">great_streets_icons_outlined</title>
+  <path
+     d="M 170.73999,673.79483 V -72.095181 c -0.0219,-2.46187 -2.01806,-4.44915 -4.48,-4.46 -2.48528,0 -4.5,2.01472 -4.5,4.5 v 48.16 c -9.34,-3.93 -27.83,-15.73 -27.83,-47.45 0,-6 -9,-6 -9,0 0,25.73 10.87,40.13 20,47.69 4.98696,4.1304 10.69217,7.30674 16.83,9.37 V 673.78483"
+     id="path4" />
+</svg>
