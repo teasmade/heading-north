@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useScrollPosition } from '@n8tb1t/use-scroll-position';
 import Switch from 'react-switch';
 
-function Nav() {
+function Nav({ translate, setTranslate }) {
   const [changeOnScroll, setChangeOnScroll] = useState(true);
 
   useScrollPosition(
@@ -19,8 +19,8 @@ function Nav() {
   // TODO: Change naming to reflect language change
   const [checked, setChecked] = useState(false);
   const handleChange = (nextChecked) => {
+    setTranslate(!translate);
     setChecked(nextChecked);
-    console.log(checked);
   };
 
   return (
@@ -82,7 +82,7 @@ function Nav() {
           Fr
         </span>
       </nav>
-      <span className={css.burger}>:</span>
+      <span className={css.burger}></span>
     </div>
   );
 }

@@ -1,15 +1,16 @@
 import css from './Intro.module.css';
 
-function Intro() {
+function Intro({ translate }) {
   return (
     <div>
       <div className={css.intro}>
         <h1>Thomas Allen</h1>
-        <h2>Web Developer</h2>
-        <h3>The essentials...</h3>
+        {translate ? <h2>Développeur Web</h2> : <h2>Web Developer</h2>}
+        {translate ? <h3>L'essentiel...</h3> : <h3>The essentials...</h3>}
+
         <div></div>
         <div className={css.essentials}>
-          <a href='http://to.do.com'>
+          <a href='https://drive.google.com/file/d/1W7KTOjHCPzonZLuq2SW950VGo3b6MAyA/view?usp=sharing'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='30'
@@ -20,7 +21,7 @@ function Intro() {
               <path d='M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z' />
               <path d='M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z' />
             </svg>
-            <span>TODO:CV</span>
+            {translate ? <span>Mon CV</span> : <span>My CV</span>}
           </a>
         </div>
         <div className={css.essentials}>

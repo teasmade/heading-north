@@ -1,13 +1,23 @@
 import css from './Footer.module.css';
 
-function Footer() {
+function Footer({ translate }) {
   return (
     <div className={css.footer}>
-      <h2 className={css.firstI}>Interesting ?</h2>
-
-      <h2 className={css.secondI}>Interested ?</h2>
-
-      <h2 className={css.thirdI}>Interact ...</h2>
+      {translate ? (
+        <>
+          {' '}
+          <h2 className={css.firstI}>Intéressant ?</h2>
+          <h2 className={css.secondI}>Intéressé(e) ?</h2>
+          <h2 className={css.thirdI}>Interagir ...</h2>
+        </>
+      ) : (
+        <>
+          {' '}
+          <h2 className={css.firstI}>Interesting ?</h2>
+          <h2 className={css.secondI}>Interested ?</h2>
+          <h2 className={css.thirdI}>Interact ...</h2>
+        </>
+      )}
 
       <div className={css.fourthI}>
         <div className={css.email}>
