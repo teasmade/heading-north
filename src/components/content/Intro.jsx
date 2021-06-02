@@ -10,7 +10,13 @@ function Intro({ translate }) {
 
         <div></div>
         <div className={css.essentials}>
-          <a href='https://drive.google.com/file/d/1W7KTOjHCPzonZLuq2SW950VGo3b6MAyA/view?usp=sharing'>
+          <a
+            href={
+              translate
+                ? 'https://drive.google.com/file/d/1c3opFyR0X-qMsaFmXDX-mBbHlF59EC-s/view?usp=sharing'
+                : 'https://drive.google.com/file/d/1W7KTOjHCPzonZLuq2SW950VGo3b6MAyA/view?usp=sharing'
+            }
+          >
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='30'

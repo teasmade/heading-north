@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import css from './TopSection.module.css';
 
 function TopSection({ translate }) {
@@ -19,7 +20,7 @@ function TopSection({ translate }) {
                 <span className={css.highlight}>l'organisation</span> efficace et{' '}
                 <span className={css.highlight}>l'adaptation</span> à de nouveaux contextes
                 d'apprentissage sont quelques-un de{' '}
-                <span className={css.highlight}>mes atouts préalables.</span> J'ai constaté qu'ils
+                <span className={css.highlight}>mes atouts</span> préalables. J'ai constaté qu'ils
                 conservent leur valeur au fur et à mesure que ce voyage se poursuit...
               </p>
               <p>
