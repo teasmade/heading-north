@@ -5,6 +5,27 @@
   background-position: top right;
 }
 
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.timeline p {
+  font-size: 0.9rem;
+}
+
+.timeline a {
+  font-size: 1rem;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #2f80ed33;
+  margin-top: 10px;
+  text-align: right;
+  width: initial;
+}
+
 .timeLineTrunk {
   padding: 2em 0 0 0;
 }

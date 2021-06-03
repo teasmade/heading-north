@@ -121,6 +121,9 @@ function TimeLine({ translate }) {
                   <p>
                     Nous avons développé un jeu d'aventure spatiale, en utilisant React et p5.js..
                   </p>
+                  <div className={css.links}>
+                    <a href='https://github.com/teasmade/space-hackathon'>Repo du projet</a>
+                  </div>
                 </>
               ) : (
                 <>
@@ -132,6 +135,9 @@ function TimeLine({ translate }) {
                     Wild Code School.
                   </p>
                   <p>We developed a playable space-adventure game, using React and p5.js.</p>
+                  <div className={css.links}>
+                    <a href='https://github.com/teasmade/space-hackathon'>Repo for the project</a>
+                  </div>
                 </>
               )}
             </VerticalTimelineElement>
@@ -164,6 +170,10 @@ function TimeLine({ translate }) {
                     imparti, en ajoutant l'authentification et le stockage des données utilisateurs
                     avec Firebase.
                   </p>
+                  <div className={css.links}>
+                    <a href='https://github.com/teasmade/nts-js-202103-p2-bicloo'>Repo du projet</a>
+                    <a href='https://infallible-murdock-c2ad9d.netlify.app/'>Le site déployé</a>
+                  </div>
                 </>
               ) : (
                 <>
@@ -184,6 +194,12 @@ function TimeLine({ translate }) {
                     project brief in the time allocated, adding authentication and user data storage
                     using Firebase.
                   </p>
+                  <div className={css.links}>
+                    <a href='https://github.com/teasmade/nts-js-202103-p2-bicloo'>
+                      Repo for the project
+                    </a>
+                    <a href='https://infallible-murdock-c2ad9d.netlify.app/'>The deployed site</a>
+                  </div>
                 </>
               )}
             </VerticalTimelineElement>

@@ -49,6 +49,7 @@ h4 {
 }
 
 p,
+a,
 li,
 span {
   font-family: 'Oxygen', sans-serif;
@@ -58,4 +59,8 @@ span {
 
 p {
   margin-top: 1rem;
+}
+
+a {
+  color: #ddffff;
 }
