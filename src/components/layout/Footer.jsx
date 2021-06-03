@@ -8,7 +8,7 @@ function Footer({ translate }) {
           {' '}
           <h2 className={css.firstI}>Intéressant ?</h2>
           <h2 className={css.secondI}>Intéressé(e) ?</h2>
-          <h2 className={css.thirdI}>Interagir ...</h2>
+          <h2 className={css.thirdI}>Intéragir ...</h2>
         </>
       ) : (
         <>

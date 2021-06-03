@@ -30,7 +30,7 @@ function TimeLine({ translate }) {
                     Node.js, MySQL et Express.
                   </p>
                   <p>
-                    L'accent est mis sur l'importance des du travail en agilité, le contrôle des
+                    L'accent est mis sur l'importance des du travail en agilité, le contrôle
                     versions avec Git et Github et le contrôle de qualité de code avec ESLint.
                   </p>
                 </>
@@ -68,12 +68,11 @@ function TimeLine({ translate }) {
                   </h3>
                   <h4 className='vertical-timeline-element-subtitle'>www.plusdebad.com</h4>
                   <p>
-                    Mon projet final pendant la formation à la Wild Code School, Nantes, en
-                    travaillant pour un client externe sur un problème du monde réel dans une équipe
-                    de 5 personnes.
+                    Mon projet final pendant la formation à la Wild Code School, Nantes, traite d'un
+                    problème concret pour un client externe, au sein d'une équipe de 5 personnes.
                   </p>
                   <p>
-                    Application à livrer en juillet 2021 : un système automatisant les processus
+                    Application à livrer en juillet 2021 : un système automatisant le processus
                     d'étiquettage des produits, basé sur des données dynamiques de prix et de stock,
                     pour une chaîne de 7 magasins de sport spécialisés.
                   </p>
@@ -98,7 +97,7 @@ function TimeLine({ translate }) {
                   </p>
                   <p>
                     Working in 1 week sprints, we will develop our own back-end, API and front-end,
-                    usinng React, Node and MySQL.
+                    using React, Node and MySQL.
                   </p>
                 </>
               )}
@@ -116,7 +115,7 @@ function TimeLine({ translate }) {
               {translate ? (
                 <>
                   {' '}
-                  <h3 className='vertical-timeline-element-title'>Entrée gagnante du Hackathon</h3>
+                  <h3 className='vertical-timeline-element-title'>Hackaton: entrée gagnante</h3>
                   <h4 className='vertical-timeline-element-subtitle'>To the Moon!</h4>
                   <p>
                     Je faisais partie d'une équipe de 4 personnes qui a remporté un hackathon de 2
@@ -155,9 +154,9 @@ function TimeLine({ translate }) {
                   <h3 className='vertical-timeline-element-title'>Développement React + API</h3>
                   <h4 className='vertical-timeline-element-subtitle'>BiclooApp</h4>
                   <p>
-                    2ème projet dans le cadre de la formation à la Wild Code School ; notre brief
+                    2ème projet dans le cadre de la formation à la Wild Code School ; notre objectif
                     était de créer un site avec React en utilisant de manière intéressante les
-                    géodonnées de l'API publique de Nantes Metropôle.
+                    données de geolocalisation de l'API publique de Nantes Metropole.
                   </p>
                   <p>
                     Mon équipe de 5 personnes a développé une application pour ludifier Bicloo, le
@@ -165,9 +164,9 @@ function TimeLine({ translate }) {
                   </p>
                   <p>
                     Nous avons utilisé React, avec Leaflet pour l'affichage dynamique des données
-                    cartographiques. Nous avons dépassé le brief du projet dans le temps imparti, en
-                    ajoutant l'authentification et le stockage des données utilisateurs avec
-                    Firebase.
+                    cartographiques. Nous avons dépassé les attentes du projet dans le temps
+                    imparti, en ajoutant l'authentification et le stockage des données utilisateurs
+                    avec Firebase.
                   </p>
                 </>
               ) : (
@@ -177,7 +176,7 @@ function TimeLine({ translate }) {
                   <h4 className='vertical-timeline-element-subtitle'>BiclooApp</h4>
                   <p>
                     2nd project during training at the Wild Code School; our brief was to create a
-                    site with React using geodata from Nantes Metropôle's public API in an
+                    site with React using geodata from Nantes Metropole's public API in an
                     interesting way.
                   </p>
                   <p>

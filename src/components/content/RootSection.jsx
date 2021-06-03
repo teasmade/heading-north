@@ -10,8 +10,8 @@ function RootSection({ translate }) {
               {' '}
               <h2>Les Racines...</h2>
               <p className={css.highlight}>
-                Je suis passé au développement web en 2020 - 2021, après avoir travaillé dans les
-                ventes, les réservations et la gestion de l'expérience client dans le secteur du
+                Je suis passé au développement web en 2020 - 2021, après avoir travaillé dans la
+                vente, les réservations et la gestion de l'expérience client dans le secteur du
                 tourisme spécialisé.
               </p>
               <p className={css.aside}>

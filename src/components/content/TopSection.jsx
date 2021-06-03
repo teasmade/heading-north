@@ -32,9 +32,9 @@ function TopSection({ translate }) {
                 <span className={css.highlight}>à partir d'août 2021.</span>
               </p>
               <p>
-                <span className={css.highlight}>// TODO:</span> mes objectifs d'apprentissage actuel
-                sont <span className={css.highlight}>Typescript, GraphQL et Tailwind;</span> j'ai
-                des intérêts secondaires dans le code créatif avec{' '}
+                <span className={css.highlight}>// TODO:</span> mes objectifs d'apprentissage
+                actuels sont <span className={css.highlight}>Typescript, GraphQL et Tailwind;</span>{' '}
+                j'ai des intérêts secondaires dans le code créatif avec{' '}
                 <span className={css.highlight}>p5.js et D3.js.</span>
               </p>
             </>
