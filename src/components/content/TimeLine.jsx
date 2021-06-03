@@ -8,7 +8,7 @@ function TimeLine({ translate }) {
     <div className={css.timeline}>
       <div className={css.desktopFlexWrapper}>
         <div className={css.desktopFlexItem}>
-          {translate ? <h2>Projets et travaux récents</h2> : <h2>Recent Work & Projects</h2>}
+          {translate ? <h2>Formation et projets récents</h2> : <h2>Recent Work & Projects</h2>}
           <VerticalTimeline className={css.timeLineTrunk} animate={false} layout='1-column-right'>
             <VerticalTimelineElement
               className='vertical-timeline-element--work'
@@ -18,7 +18,6 @@ function TimeLine({ translate }) {
               iconClassName={css.timeLineNode}
               textClassName={css.timeLineBox}
               dateClassName={css.timeLineDate}
-              // icon={<WorkIcon />}
             >
               {translate ? (
                 <>
@@ -30,7 +29,7 @@ function TimeLine({ translate }) {
                     Node.js, MySQL et Express.
                   </p>
                   <p>
-                    L'accent est mis sur l'importance des du travail en agilité, le contrôle
+                    L'accent est mis sur l'importance du travail agile en équipe, le contrôle
                     versions avec Git et Github et le contrôle de qualité de code avec ESLint.
                   </p>
                 </>
@@ -44,8 +43,8 @@ function TimeLine({ translate }) {
                     Node.js, MySQL and Express.
                   </p>
                   <p>
-                    Emphasis on the importance of Agile work practices, version control using Git
-                    and Github, quality control using ESLint.
+                    Emphasis on the importance of Agile teamwork practices, version control using
+                    Git and Github, quality control using ESLint.
                   </p>
                 </>
               )}
@@ -58,7 +57,6 @@ function TimeLine({ translate }) {
               iconClassName={css.timeLineNode}
               textClassName={css.timeLineBox}
               dateClassName={css.timeLineDate}
-              // icon={<WorkIcon />}
             >
               {translate ? (
                 <>
@@ -72,9 +70,9 @@ function TimeLine({ translate }) {
                     problème concret pour un client externe, au sein d'une équipe de 5 personnes.
                   </p>
                   <p>
-                    Application à livrer en juillet 2021 : un système automatisant le processus
-                    d'étiquettage des produits, basé sur des données dynamiques de prix et de stock,
-                    pour une chaîne de 7 magasins de sport spécialisés.
+                    Application à livrer après 6 semaines de travail : un système automatisant le
+                    processus d'étiquettage des produits, basé sur des données dynamiques de prix et
+                    de stock, pour une chaîne de 7 magasins de sport spécialisés.
                   </p>
                   <p>
                     Travaillant en sprints d'une semaine, nous développerons notre propre back-end,
@@ -91,9 +89,9 @@ function TimeLine({ translate }) {
                     external client on a real-world problem in a team of 5.
                   </p>
                   <p>
-                    Application to be delivered July 2021: a system automating product ticketing
-                    processes, based on dynamic price and stock data, for a chain of 7 specialist
-                    sports shops.
+                    Application to be delivered after 6 weeks of work: a system automating product
+                    ticketing processes, based on dynamic price and stock data, for a chain of 7
+                    specialist sports shops.
                   </p>
                   <p>
                     Working in 1 week sprints, we will develop our own back-end, API and front-end,
@@ -110,7 +108,6 @@ function TimeLine({ translate }) {
               iconClassName={css.timeLineNode}
               textClassName={css.timeLineBox}
               dateClassName={css.timeLineDate}
-              // icon={<WorkIcon />}
             >
               {translate ? (
                 <>
@@ -146,7 +143,6 @@ function TimeLine({ translate }) {
               iconClassName={css.timeLineNode}
               textClassName={css.timeLineBox}
               dateClassName={css.timeLineDate}
-              // icon={<WorkIcon />}
             >
               {translate ? (
                 <>
@@ -156,7 +152,7 @@ function TimeLine({ translate }) {
                   <p>
                     2ème projet dans le cadre de la formation à la Wild Code School ; notre objectif
                     était de créer un site avec React en utilisant de manière intéressante les
-                    données de geolocalisation de l'API publique de Nantes Metropole.
+                    données de géolocalisation de l'API publique de Nantes Metropole.
                   </p>
                   <p>
                     Mon équipe de 5 personnes a développé une application pour ludifier Bicloo, le

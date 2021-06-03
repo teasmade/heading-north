@@ -27,9 +27,8 @@ function TopSection({ translate }) {
                 Je suis basé à <span className={css.highlight}>Nantes,</span> et je suis
                 actuellement à la recherche{' '}
                 <span className={css.highlight}>d'opportunités intéressantes</span> dans la région,
-                ou à distance en CET, pour des rôles de{' '}
-                <span className={css.highlight}>niveau junior</span> ou des stages{' '}
-                <span className={css.highlight}>à partir d'août 2021.</span>
+                ou à distance, pour un poste de <span className={css.highlight}>niveau junior</span>{' '}
+                ou un stage <span className={css.highlight}>à partir d'août 2021.</span>
               </p>
               <p>
                 <span className={css.highlight}>// TODO:</span> mes objectifs d'apprentissage
